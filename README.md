@@ -8,29 +8,19 @@ The goal was not just to build a model, but to understand how feature quality af
 📊 Dataset
 
 The dataset contains historical chess games with features such as:
-
 Player color (White/Black)
-
 Number of moves
-
 Game format
-
 Full move sequence
-
 From the move sequence, I extracted the opening sequence (first two moves for each player) as a feature.
 
 ⚙️ Feature Engineering
 
 Key features used:
-
 player_color
-
 num_moves
-
 game_format
-
 opening_sequence (extracted using regex from move list)
-
 Categorical variables were encoded before training.
 
 🤖 Model Used
@@ -77,5 +67,3 @@ Scikit-learn
 Pandas
 Matplotlib
 Scikit-learn
-
-Matplotlib
